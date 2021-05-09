@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: borderbox;
+}
+
+#top-girls-arm {
+  animation: rotateHand 2s infinite alternate;
+  transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateHand {
+  0% {
+    transform: rotate(-8deg);
+  }
+  70%{
+    transform: rotate(5deg);
+  }
+} 
+
+#top-girls-left-arm {
+  animation: rotateHand 5s infinite alternate;
+  transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateLeftHand {
+  0% {
+    transform: rotate(0deg);
+  }
+  70%{
+    transform: rotate(3deg);
+  }
+} 
+
+#top-girls-body {
+  animation: rotateTopGirlsBody 3s infinite alternate;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+@keyframes rotateTopGirlsBody {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50%{
+    transform: rotate(-3deg);
+  }
+} 
+
+#top-girls-head{
+  animation: rotateTopGirlsHead 3s infinite alternate;
+  transform-origin: bottom right;
+  transform-box: fill-box;
+}
+
+@keyframes rotateTopGirlsHead {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(-5deg);
+  }
+} 
+
+
+
+
+#mans-arm {
+  animation: rotateMansHand 2s infinite alternate;
+  transform-origin: bottom left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateMansHand {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(5deg);
+  }
+} 
+
+#mans-left-arm {
+  animation: rotateMansHand 3s infinite alternate;
+  transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateMansLeftHand {
+  0% {
+    transform: rotate(0deg);
+  }
+  90%{
+    transform: rotate(20deg);
+  }
+} 
+
+#mans-head {
+  animation: rotateMansHead 3s infinite alternate;
+  transform-origin: bottom left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateMansHead {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(8deg);
+  }
+} 
+
+
+#left-girls-right-arm {
+  animation: rotateLeftGirlsRightHand 2s infinite alternate;
+  transform-origin: bottom left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateLeftGirlsRightHand {
+  0% {
+    transform: rotate(0deg);
+  }
+  70%{
+    transform: rotate(5deg);
+  }
+} 
+
+#left-girls-left-arm {
+  animation: rotateLeftGirlsLeftHand 2s infinite alternate;
+  transform-origin: bottom left;
+  transform-box: fill-box;
+}
+
+@keyframes rotateLeftGirlsLeftHand {
+  0% {
+    transform: rotate(0deg);
+  }
+  70%{
+    transform: rotate(15deg);
+  }
+} 
+
+#left-girls-head{
+  animation: rotateLeftGirlsHead 2s infinite alternate;
+  transform-origin: bottom right;
+  transform-box: fill-box;
+}
+
+@keyframes rotateLeftGirlsHead {
+  0% {
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(-5deg);
+  }
+}
+
+#folder-img-and-background {
+  animation: rotateFolderImg 2s infinite alternate;
+  transform-origin: 5px 90% 10px;
+  transform-box: fill-box;
+}
+
+@keyframes rotateFolderImg {
+  0% {
+    transform: rotate(-5deg);
+  }
+  70%{
+    transform: rotate(10deg);
+  }
+} 
+
+
+#big-image {
+  animation: rotateImage 2s infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(-8deg);
+  }
+  70%{
+    transform: rotate(5deg);
+  }
+} 
+
+#sun {
+  animation: rotateSun 2s infinite alternate;
+  transform-origin: right;
+  transform-box: fill-box;
+}
+
+@keyframes rotateSun {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(-60deg);
+  }
+}
+
+#img-img {
+  animation: rotateImgImg 2s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+@keyframes rotateImgImg {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(30deg);
+  }
+}
+
+#file-img {
+  animation: rotateFileImg 2s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+@keyframes rotateFileImg {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(30deg);
+  }
+}
+
+#letter-img {
+  animation: rotateLetterImg 2s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+@keyframes rotateLetterImg {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(30deg);
+  }
+}
+
+#first-dot {
+  animation: firstDot 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  transform-origin: center;
+  animation-delay: 0.1s;
+}
+
+@keyframes firstDot {
+ 0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(3px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
+#second-dot {
+  animation: secondDot 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  transform-origin: center;
+  animation-delay: 0.3s;
+}
+
+@keyframes secondDot {
+ 0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(3px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+#third-dot {
+  animation: thirdDot 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  transform-origin: center;
+  animation-delay: 0.5s;
+}
+
+@keyframes thirdDot {
+ 0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(3px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
