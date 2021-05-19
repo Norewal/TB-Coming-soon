@@ -10,18 +10,14 @@ import { FaUserTie } from 'react-icons/fa';
 const StyledHeader = styled.header``;
 
 const Container = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    @media only screen and (max-width: 768px)  {
-      
-    }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 const SocialContainer = styled.div`
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 `;
 const SocialIcon = styled.div`
   margin: 0px 20px;
@@ -34,6 +30,7 @@ const SocialIcon = styled.div`
     box-shadow: rgba(0, 153, 98, 1) 5px 5px;
   }
 `;
+
 
 const Header = () => (
   <StyledHeader

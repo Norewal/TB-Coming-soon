@@ -31,6 +31,7 @@ const LogoText = styled.div`
     padding: 0 20px 15px 0;
     color: white;
     font-family: Gotham;
+    
     @media screen and (max-width: 480px) {
         font-size: 18px;
     }

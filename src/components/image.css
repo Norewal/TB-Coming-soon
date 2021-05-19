@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: borderbox;
+  box-sizing: border-box;
 }
 
 #top-girls-arm {
@@ -14,10 +14,10 @@
   0% {
     transform: rotate(-8deg);
   }
-  70%{
+  70% {
     transform: rotate(5deg);
   }
-} 
+}
 
 #top-girls-left-arm {
   animation: rotateHand 5s infinite alternate;
@@ -29,10 +29,10 @@
   0% {
     transform: rotate(0deg);
   }
-  70%{
+  70% {
     transform: rotate(3deg);
   }
-} 
+}
 
 #top-girls-body {
   animation: rotateTopGirlsBody 3s infinite alternate;
@@ -44,12 +44,12 @@
   0% {
     transform: rotate(-1deg);
   }
-  50%{
+  50% {
     transform: rotate(-3deg);
   }
-} 
+}
 
-#top-girls-head{
+#top-girls-head {
   animation: rotateTopGirlsHead 3s infinite alternate;
   transform-origin: bottom right;
   transform-box: fill-box;
@@ -59,13 +59,10 @@
   0% {
     transform: rotate(0deg);
   }
-  50%{
+  50% {
     transform: rotate(-5deg);
   }
-} 
-
-
-
+}
 
 #mans-arm {
   animation: rotateMansHand 2s infinite alternate;
@@ -77,10 +74,10 @@
   0% {
     transform: rotate(0deg);
   }
-  50%{
+  50% {
     transform: rotate(5deg);
   }
-} 
+}
 
 #mans-left-arm {
   animation: rotateMansHand 3s infinite alternate;
@@ -92,10 +89,10 @@
   0% {
     transform: rotate(0deg);
   }
-  90%{
+  90% {
     transform: rotate(20deg);
   }
-} 
+}
 
 #mans-head {
   animation: rotateMansHead 3s infinite alternate;
@@ -107,11 +104,10 @@
   0% {
     transform: rotate(0deg);
   }
-  50%{
+  50% {
     transform: rotate(8deg);
   }
-} 
-
+}
 
 #left-girls-right-arm {
   animation: rotateLeftGirlsRightHand 2s infinite alternate;
@@ -123,10 +119,10 @@
   0% {
     transform: rotate(0deg);
   }
-  70%{
+  70% {
     transform: rotate(5deg);
   }
-} 
+}
 
 #left-girls-left-arm {
   animation: rotateLeftGirlsLeftHand 2s infinite alternate;
@@ -138,12 +134,12 @@
   0% {
     transform: rotate(0deg);
   }
-  70%{
+  70% {
     transform: rotate(15deg);
   }
-} 
+}
 
-#left-girls-head{
+#left-girls-head {
   animation: rotateLeftGirlsHead 2s infinite alternate;
   transform-origin: bottom right;
   transform-box: fill-box;
@@ -153,7 +149,7 @@
   0% {
     transform: rotate(0deg);
   }
-  50%{
+  50% {
     transform: rotate(-5deg);
   }
 }
@@ -168,11 +164,10 @@
   0% {
     transform: rotate(-5deg);
   }
-  70%{
+  70% {
     transform: rotate(10deg);
   }
-} 
-
+}
 
 #big-image {
   animation: rotateImage 2s infinite alternate;
@@ -184,10 +179,10 @@
   0% {
     transform: rotate(-8deg);
   }
-  70%{
+  70% {
     transform: rotate(5deg);
   }
-} 
+}
 
 #sun {
   animation: rotateSun 2s infinite alternate;
@@ -199,7 +194,7 @@
   from {
     transform: rotateZ(0deg);
   }
-  to{
+  to {
     transform: rotateZ(-60deg);
   }
 }
@@ -250,56 +245,55 @@
 }
 
 #first-dot {
-  animation: firstDot 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  animation: firstDot 1.5s cubic-bezier(0.8, 0.5, 0.2, 1.4) infinite;
   transform-origin: center;
   animation-delay: 0.1s;
 }
 
 @keyframes firstDot {
- 0%{
+  0% {
     transform: translateY(0px);
   }
-  50%{
+  50% {
     transform: translateY(3px);
   }
-  100%{
+  100% {
     transform: translateY(0px);
   }
 }
 
-
 #second-dot {
-  animation: secondDot 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  animation: secondDot 1.5s cubic-bezier(0.8, 0.5, 0.2, 1.4) infinite;
   transform-origin: center;
   animation-delay: 0.3s;
 }
 
 @keyframes secondDot {
- 0%{
+  0% {
     transform: translateY(0px);
   }
-  50%{
+  50% {
     transform: translateY(3px);
   }
-  100%{
+  100% {
     transform: translateY(0px);
   }
 }
 
 #third-dot {
-  animation: thirdDot 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  animation: thirdDot 1.5s cubic-bezier(0.8, 0.5, 0.2, 1.4) infinite;
   transform-origin: center;
   animation-delay: 0.5s;
 }
 
 @keyframes thirdDot {
- 0%{
+  0% {
     transform: translateY(0px);
   }
-  50%{
+  50% {
     transform: translateY(3px);
   }
-  100%{
+  100% {
     transform: translateY(0px);
   }
 }

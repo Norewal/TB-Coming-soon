@@ -8,14 +8,13 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     max-width: 70%;
-
 `;
 
 
 
 const MainImage = () => (
     <Container>
-        <svg width="877" height="662" viewBox="0 0 877 662" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="877" viewBox="0 0 877 662" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="undraw_building_websites_i78t 2" clip-path="url(#clip0)">
                 <g id="top-girls-body">
                     <path id="Vector" d="M589.597 147.729C588.742 146.623 587.887 145.537 587.022 144.481C585.905 143.107 584.782 141.775 583.653 140.487C570.853 125.858 557.269 116.672 542.355 115.753L542.335 115.753L542.115 115.734L512.542 144.835L502.489 154.723L502.712 155.262L508.226 168.806L603.715 168.352C599.379 161.232 594.666 154.348 589.597 147.729V147.729Z" fill="#080833"/>

@@ -8,6 +8,10 @@ import { FaUserTie } from 'react-icons/fa'
 const SocialIconsContainer = styled.div`
     display: inline-flex;
     margin: 20px 10px;
+
+    @media only screen and (min-width: 650px) and (max-width: 654px) and (orientation: landscape) {
+        margin: 0 10px;
+    }
 `;
 const SocialIcon = styled.div`
     color: white;
@@ -25,7 +29,9 @@ const SocialIcon = styled.div`
     background-color: transparent;
     &:hover {
         background-color: #0036A6;
-
+    }
+    @media only screen and (min-width: 567px) and (max-width: 654px) and (orientation: landscape) {
+        padding: 0 5px;
     }
 `;
 
