@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 import MainImage from '../components/image'
 import SocialIcons from '../components/socialIcons'
 import Logo from '../components/logo'
+import Footer from '../components/copyRight'
 
 const Container = styled.div`
   display: flex;
@@ -76,6 +77,7 @@ const ImageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 
   @media screen and (max-width: 1265px) {
     top: 0px;
@@ -104,6 +106,7 @@ const IndexPage = () => (
       </TextContainer>
       <ImageContainer>
         <MainImage />
+        <Footer />
       </ImageContainer>
     </Container>
   </Layout>
