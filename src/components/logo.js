@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components"
-import Img from "../images/logo.png";
+import Img from "../images/BioSol.png";
 
 const LogoContainer = styled.div`
     display: flex;
@@ -19,10 +19,14 @@ const LogoContainer = styled.div`
     @media only screen and (max-width: 1265px)  {
         flex-direction: row;
     }
+    @media only screen and (max-width: 290px)  {
+        flex-direction: column;
+        margin: 0 2rem;
+    }
 `;
 
 const LogoImg = styled.img `
-    width: 4em;
+    height: 2em;
     padding: 0 10px 0 0;
 `;
 
@@ -34,6 +38,9 @@ const LogoText = styled.div`
     
     @media screen and (max-width: 480px) {
         font-size: 18px;
+    }
+    @media only screen and (max-width: 290px)  {
+        padding: 0rem;
     }
 
 `; 

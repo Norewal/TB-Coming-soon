@@ -27,9 +27,12 @@ const SocialIcon = styled.div`
     -webkit-transition: .5s;
     transition: .5s;
     background-color: transparent;
-    &:hover {
+    &:hover, &:focus {
         background-color: #0036A6;
+        box-shadow: 0 0.5em 0.5em -0.4em #0036A6;
+        transform: translateY(-0.25em);
     }
+
     @media only screen and (min-width: 567px) and (max-width: 654px) and (orientation: landscape) {
         padding: 0 5px;
     }
